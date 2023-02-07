@@ -18,9 +18,11 @@ ul {
     margin: 0%;
     padding: 0%;
 }
-
+.thumb {
+    cursor: pointer;
+}
 ul.popular {
-    overflow: auto;
+    overflow: hidden;
     white-space: nowrap;
 }
 
@@ -54,7 +56,6 @@ a:hover {
 
 .thumb:hover {
     filter: brightness(50%);
-    cursor: pointer;
 }
 
 .mylist {
