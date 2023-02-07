@@ -54,6 +54,7 @@ a:hover {
 
 .thumb:hover {
     filter: brightness(50%);
+    cursor: pointer;
 }
 
 .mylist {
