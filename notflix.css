@@ -1,41 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-
 body {
     background-color: black;
     color: white;
     font-family: 'Bebas Neue', cursive;
     overflow: hidden;
 }
-
 .notflixH {
     color: red;
     background-color: black;
     background-clip: padding-box;
     padding: 10px;
 }
-
 ul {
     margin: 0%;
     padding: 0%;
 }
-.thumb {
-    cursor: pointer;
-}
 ul.popular {
-    overflow: hidden;
+    overflow: auto;
     white-space: nowrap;
 }
-
 li {
     display: inline-block;
     text-align: center;
 }
-
 #nav1 {
     display: inline;
     padding: 5px;
 }
-
 a {
     color: rgb(255, 255, 255);
     text-decoration: none;
@@ -44,26 +35,20 @@ a {
 a:hover {
     background-color: rgb(44, 44, 44);
 }
-
 .pfp {
     float: right;
     width: 55px;
 }
-
 .pfp:hover {
     filter: brightness(50%);
 }
 
 .thumb:hover {
     filter: brightness(50%);
+    cursor: pointer;
 }
 
 .mylist {
-    padding: 0px 10px 0px 100px;
-}
-
-.thumb:-webkit-scrollbar {
+@@ -64,4 +65,4 @@ a:hover {
     display: none;
   }
-
-  
